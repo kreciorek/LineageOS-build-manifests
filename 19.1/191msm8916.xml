@@ -11,14 +11,9 @@
  <!-- Common Samsung MSM8916 Kernel -->
   <project path="kernel/samsung/msm8916" name="retiredtab/android_kernel_samsung_msm8916" remote="github" revision="fresh-allinone-binder-12.0"/>
 
- <!-- Vendor Trees (for Samsung Tab A/E devices) -->
-  <project path="vendor/samsung/msm8916-common" name="retiredtab/vendor_samsung_msm8916-common"  remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung/gte-common" name="retiredtab/android_vendor_samsung_gte-common"  remote="github" revision="Q10.0"/>
-  <project path="vendor/samsung/gtelwifiue" name="retiredtab/vendor_samsung_gtelwifiue"  remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung/gt58wifi" name="retiredtab/android_vendor_samsung_gt58wifi"  remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung/gt5note10wifi" name="retiredtab/vendor-samsung-gt5note10wifi"  remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung/gt510wifi" name="retiredtab/android_vendor_samsung_gt510wifi"  remote="github" revision="lineage-19.1"/>
-  <project path="vendor/samsung/gt58ltebmc" name="retiredtab/android_vendor_samsung_gt58ltebmc"  remote="github" revision="lineage-19.1"/>
+ <!-- Vendor (use gabbos vendor for now) -->
+  <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-19.1"/>
+
 
  <!-- 19.1 Hacks/Dependencies -->
  <!-- revert lineage: RIP legacy qcom -->
@@ -43,12 +38,18 @@
  <!-- arm-eabi-7.2 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
- <!-- Galaxy Tab A/E device trees -->
-  <project path="device/samsung/gte-common" name="retiredtab/device_samsung_gte-common" groups="device" remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/gtelwifiue" name="retiredtab/android_device_samsung_gtelwifiue"  remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/gt58wifi" name="retiredtab/device_samsung_gt58wifi" groups="device" remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/gt58ltebmc" name="retiredtab/android_device_samsung_gt58ltebmc" groups="device" remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/gt5note10wifi" name="retiredtab/android_device_samsung_gt5note10wifi"  remote="github" revision="lineage-19.1"/>
-  <project path="device/samsung/gt510wifi" name="retiredtab/android_device_samsung_gt510wifi"  remote="github" revision="lineage-19.1"/>
+  <!-- Grand Prime specific trees -->
+  <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/gprimeltexx" name="Gabboxl/android_device_samsung_gprimeltexx" remote="github" revision="lineage-19.1"/>
+  
+  <!-- Temp disable unsupported variants
+  <project path="device/samsung/fortuna3g" name="Gabboxl/android_device_samsung_fortuna3g" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/fortunave3g" name="Gabboxl/android_device_samsung_fortunave3g" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/fortunalteub" name="Gabboxl/android_device_samsung_fortunalteub" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/gprimelte" name="Gabboxl/android_device_samsung_gprimelte" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/fortuna3gdtv" name="Gabboxl/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-19.0"/>
+  <project path="device/samsung/fortunaltedx" name="Gabboxl/android_device_samsung_fortunaltedx" remote="github" revision="lineage-19.0"/> -->
 
 </manifest>
