@@ -2,14 +2,14 @@
 <manifest>
 
  <!-- Samsung MSM8916 Common Repos -->
-  <project path="device/samsung/msm8916-common" name="retiredtab/android_device_samsung_msm8916-common"  remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/msm8916-common" name="kreciorek/retired_android_device_samsung_msm8916-common"  remote="github" revision="lineage-19.1"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.1"/>
 
  <!-- Samsung Hardware Repo -->
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.1"/>
 
  <!-- Common Samsung MSM8916 Kernel -->
-  <project path="kernel/samsung/msm8916" name="retiredtab/android_kernel_samsung_msm8916" remote="github" revision="fresh-allinone-binder-12.0"/>
+  <project path="kernel/samsung/msm8916" name="retiredtab/android_kernel_samsung_msm8916" remote="github" revision="lineage-20.0"/>
 
  <!-- Vendor (use gabbos vendor for now) -->
   <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung" remote="github" revision="lineage-19.1"/>
